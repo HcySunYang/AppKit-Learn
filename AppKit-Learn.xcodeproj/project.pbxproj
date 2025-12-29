@@ -12,37 +12,37 @@
 			containerPortal = 7B8642F72EFE7D9400ECD4C7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7B8642FE2EFE7D9400ECD4C7;
-			remoteInfo = MyApp;
+			remoteInfo = "AppKit-Learn";
 		};
 		7B86431A2EFE7D9400ECD4C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7B8642F72EFE7D9400ECD4C7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7B8642FE2EFE7D9400ECD4C7;
-			remoteInfo = MyApp;
+			remoteInfo = "AppKit-Learn";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B8642FF2EFE7D9400ECD4C7 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B86430F2EFE7D9400ECD4C7 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B8643192EFE7D9400ECD4C7 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8642FF2EFE7D9400ECD4C7 /* AppKit-Learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppKit-Learn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B86430F2EFE7D9400ECD4C7 /* AppKit-LearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppKit-LearnTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8643192EFE7D9400ECD4C7 /* AppKit-LearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppKit-LearnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7B8643012EFE7D9400ECD4C7 /* MyApp */ = {
+		7B8643012EFE7D9400ECD4C7 /* AppKit-Learn */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyApp;
+			path = "AppKit-Learn";
 			sourceTree = "<group>";
 		};
-		7B8643122EFE7D9400ECD4C7 /* MyAppTests */ = {
+		7B8643122EFE7D9400ECD4C7 /* AppKit-LearnTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyAppTests;
+			path = "AppKit-LearnTests";
 			sourceTree = "<group>";
 		};
-		7B86431C2EFE7D9400ECD4C7 /* MyAppUITests */ = {
+		7B86431C2EFE7D9400ECD4C7 /* AppKit-LearnUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyAppUITests;
+			path = "AppKit-LearnUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		7B8642F62EFE7D9400ECD4C7 = {
 			isa = PBXGroup;
 			children = (
-				7B8643012EFE7D9400ECD4C7 /* MyApp */,
-				7B8643122EFE7D9400ECD4C7 /* MyAppTests */,
-				7B86431C2EFE7D9400ECD4C7 /* MyAppUITests */,
+				7B8643012EFE7D9400ECD4C7 /* AppKit-Learn */,
+				7B8643122EFE7D9400ECD4C7 /* AppKit-LearnTests */,
+				7B86431C2EFE7D9400ECD4C7 /* AppKit-LearnUITests */,
 				7B8643002EFE7D9400ECD4C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		7B8643002EFE7D9400ECD4C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B8642FF2EFE7D9400ECD4C7 /* MyApp.app */,
-				7B86430F2EFE7D9400ECD4C7 /* MyAppTests.xctest */,
-				7B8643192EFE7D9400ECD4C7 /* MyAppUITests.xctest */,
+				7B8642FF2EFE7D9400ECD4C7 /* AppKit-Learn.app */,
+				7B86430F2EFE7D9400ECD4C7 /* AppKit-LearnTests.xctest */,
+				7B8643192EFE7D9400ECD4C7 /* AppKit-LearnUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B8642FE2EFE7D9400ECD4C7 /* MyApp */ = {
+		7B8642FE2EFE7D9400ECD4C7 /* AppKit-Learn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B8643232EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildConfigurationList = 7B8643232EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "AppKit-Learn" */;
 			buildPhases = (
 				7B8642FB2EFE7D9400ECD4C7 /* Sources */,
 				7B8642FC2EFE7D9400ECD4C7 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7B8643012EFE7D9400ECD4C7 /* MyApp */,
+				7B8643012EFE7D9400ECD4C7 /* AppKit-Learn */,
 			);
-			name = MyApp;
+			name = "AppKit-Learn";
 			packageProductDependencies = (
 			);
-			productName = MyApp;
-			productReference = 7B8642FF2EFE7D9400ECD4C7 /* MyApp.app */;
+			productName = "AppKit-Learn";
+			productReference = 7B8642FF2EFE7D9400ECD4C7 /* AppKit-Learn.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7B86430E2EFE7D9400ECD4C7 /* MyAppTests */ = {
+		7B86430E2EFE7D9400ECD4C7 /* AppKit-LearnTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B8643262EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "MyAppTests" */;
+			buildConfigurationList = 7B8643262EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "AppKit-LearnTests" */;
 			buildPhases = (
 				7B86430B2EFE7D9400ECD4C7 /* Sources */,
 				7B86430C2EFE7D9400ECD4C7 /* Frameworks */,
@@ -131,18 +131,18 @@
 				7B8643112EFE7D9400ECD4C7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7B8643122EFE7D9400ECD4C7 /* MyAppTests */,
+				7B8643122EFE7D9400ECD4C7 /* AppKit-LearnTests */,
 			);
-			name = MyAppTests;
+			name = "AppKit-LearnTests";
 			packageProductDependencies = (
 			);
-			productName = MyAppTests;
-			productReference = 7B86430F2EFE7D9400ECD4C7 /* MyAppTests.xctest */;
+			productName = "AppKit-LearnTests";
+			productReference = 7B86430F2EFE7D9400ECD4C7 /* AppKit-LearnTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7B8643182EFE7D9400ECD4C7 /* MyAppUITests */ = {
+		7B8643182EFE7D9400ECD4C7 /* AppKit-LearnUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B8643292EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "MyAppUITests" */;
+			buildConfigurationList = 7B8643292EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "AppKit-LearnUITests" */;
 			buildPhases = (
 				7B8643152EFE7D9400ECD4C7 /* Sources */,
 				7B8643162EFE7D9400ECD4C7 /* Frameworks */,
@@ -154,13 +154,13 @@
 				7B86431B2EFE7D9400ECD4C7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7B86431C2EFE7D9400ECD4C7 /* MyAppUITests */,
+				7B86431C2EFE7D9400ECD4C7 /* AppKit-LearnUITests */,
 			);
-			name = MyAppUITests;
+			name = "AppKit-LearnUITests";
 			packageProductDependencies = (
 			);
-			productName = MyAppUITests;
-			productReference = 7B8643192EFE7D9400ECD4C7 /* MyAppUITests.xctest */;
+			productName = "AppKit-LearnUITests";
+			productReference = 7B8643192EFE7D9400ECD4C7 /* AppKit-LearnUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B8642FA2EFE7D9400ECD4C7 /* Build configuration list for PBXProject "MyApp" */;
+			buildConfigurationList = 7B8642FA2EFE7D9400ECD4C7 /* Build configuration list for PBXProject "AppKit-Learn" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		7B8643112EFE7D9400ECD4C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7B8642FE2EFE7D9400ECD4C7 /* MyApp */;
+			target = 7B8642FE2EFE7D9400ECD4C7 /* AppKit-Learn */;
 			targetProxy = 7B8643102EFE7D9400ECD4C7 /* PBXContainerItemProxy */;
 		};
 		7B86431B2EFE7D9400ECD4C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7B8642FE2EFE7D9400ECD4C7 /* MyApp */;
+			target = 7B8642FE2EFE7D9400ECD4C7 /* AppKit-Learn */;
 			targetProxy = 7B86431A2EFE7D9400ECD4C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,7 +405,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.AppKit-Learn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -435,7 +435,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.AppKit-Learn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -456,14 +456,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.MyAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.AppKit-LearnTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppKit-Learn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppKit-Learn";
 			};
 			name = Debug;
 		};
@@ -476,14 +476,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.MyAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.AppKit-LearnTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppKit-Learn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppKit-Learn";
 			};
 			name = Release;
 		};
@@ -494,14 +494,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.MyAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.AppKit-LearnUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MyApp;
+				TEST_TARGET_NAME = "AppKit-Learn";
 			};
 			name = Debug;
 		};
@@ -512,21 +512,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.MyAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.AppKit-LearnUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MyApp;
+				TEST_TARGET_NAME = "AppKit-Learn";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B8642FA2EFE7D9400ECD4C7 /* Build configuration list for PBXProject "MyApp" */ = {
+		7B8642FA2EFE7D9400ECD4C7 /* Build configuration list for PBXProject "AppKit-Learn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B8643212EFE7D9400ECD4C7 /* Debug */,
@@ -535,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B8643232EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+		7B8643232EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "AppKit-Learn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B8643242EFE7D9400ECD4C7 /* Debug */,
@@ -544,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B8643262EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
+		7B8643262EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "AppKit-LearnTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B8643272EFE7D9400ECD4C7 /* Debug */,
@@ -553,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B8643292EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
+		7B8643292EFE7D9400ECD4C7 /* Build configuration list for PBXNativeTarget "AppKit-LearnUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B86432A2EFE7D9400ECD4C7 /* Debug */,

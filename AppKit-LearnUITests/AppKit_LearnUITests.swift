@@ -1,13 +1,13 @@
 //
-//  MyAppUITests.swift
-//  MyAppUITests
+//  AppKit_LearnUITests.swift
+//  AppKit-LearnUITests
 //
 //  Created by ChunyangHuo on 2025/12/26.
 //
 
 import XCTest
 
-final class MyAppUITests: XCTestCase {
+final class AppKit_LearnUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
