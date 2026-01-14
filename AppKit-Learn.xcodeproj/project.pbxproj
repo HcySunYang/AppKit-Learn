@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7B8643422EFE800000000003 /* yoga in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8643412EFE800000000002 /* yoga */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7B8643102EFE7D9400ECD4C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8643422EFE800000000003 /* yoga in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "AppKit-Learn";
 			packageProductDependencies = (
+				7B8643412EFE800000000002 /* yoga */,
 			);
 			productName = "AppKit-Learn";
 			productReference = 7B8642FF2EFE7D9400ECD4C7 /* AppKit-Learn.app */;
@@ -197,6 +203,9 @@
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7B8643002EFE7D9400ECD4C7 /* Products */;
+			packageReferences = (
+				7B8643402EFE800000000001 /* XCRemoteSwiftPackageReference "yoga" */,
+			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -563,6 +572,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B8643402EFE800000000001 /* XCRemoteSwiftPackageReference "yoga" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/yoga.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B8643412EFE800000000002 /* yoga */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B8643402EFE800000000001 /* XCRemoteSwiftPackageReference "yoga" */;
+			productName = yoga;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7B8642F72EFE7D9400ECD4C7 /* Project object */;
 }
